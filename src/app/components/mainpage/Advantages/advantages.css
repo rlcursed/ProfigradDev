@@ -1,0 +1,45 @@
+.advantages-rectangle{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px #fd5e07 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.advantages-super-wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 150px 0 0 0;
+}
+
+.advantages-wrapper {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    grid:repeat(2, 320px) / auto-flow 320px;
+}
+
+.advantages-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.advantages-header p {
+    font-family: 'Bebas Neue Regular';
+    font-size: 30px;
+}
+
+.advantages-line {
+    display: block;
+    background-color: #fd5e07;
+    width: 100px;
+    height: 5px;
+}

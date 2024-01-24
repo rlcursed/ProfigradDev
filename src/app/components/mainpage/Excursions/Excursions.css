@@ -1,0 +1,86 @@
+.excursions-line {
+    display: block;
+    background-color: #fd5e07;
+    width: 100px;
+    height: 5px;
+}
+
+.excursions-header-wrapper-left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.excursions-header-wrapper-left p {
+    font-family: 'Bebas Neue Regular';
+    font-size: 30px;
+}
+
+.excursions-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.excursions-headers {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    margin: 150px 0 0 0;
+}
+
+.double-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.circle-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    border: 3px #fd5e07 solid;
+}
+
+.low-text-wrapper {
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #fd5e07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.low-text-wrapper:hover {
+    width: 355px;
+    height: 52px;
+    background-color: white;
+    color: black;
+}
+
+.low-text-wrapper p {
+    font-family: "Bebas Neue Bold";
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.low-text-wrapper p:hover {
+    font-size: 31px;
+    color: #fd5e07;
+}
+

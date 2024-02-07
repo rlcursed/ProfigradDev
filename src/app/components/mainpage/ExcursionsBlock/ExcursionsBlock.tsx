@@ -1,20 +1,20 @@
-import { FC } from "react";
-import "./ExcursionsBlock.css"
 import Button from "../SmallComponents/Button/Button";
+
+import { BlockWrapper, TextWrapper, TextH, TextP, ButtonWrapper, BlockButton } from "./ExcursionBlockStyle";
 
 const ExcursionsBlock = () => {
   return (
     <div>
-      <div className="block-body">
-        <div className="text-wrapper">
-          <h2>Горьковский автомобильный завод</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem hic a, harum alias iure porro reiciendis assumenda dignissimos voluptate quas doloribus provident id! Dolorum veniam provident, qui obcaecati odio quam! Eum quia, omnis exercitationem nulla illo quos voluptatem cumque voluptates molestiae dolores soluta minima incidunt accusantium itaque, consequatur, odit maiores?</p>
-        </div>
-        <div className="buttons-wrapper">
+      <BlockWrapper>
+        <TextWrapper>
+          <TextH>Горьковский автомобильный завод</TextH>
+          <TextP>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem hic a, harum alias iure porro reiciendis assumenda dignissimos voluptate quas doloribus provident id! Dolorum veniam provident, qui obcaecati odio quam! Eum quia, omnis exercitationem nulla illo quos voluptatem cumque voluptates molestiae dolores soluta minima incidunt accusantium itaque, consequatur, odit maiores?</TextP>
+        </TextWrapper>
+        <ButtonWrapper>
           <Button title="Забронировать"></Button>
-          <button className="excursions-button">Подробнее</button>
-        </div>
-      </div>
+          <BlockButton>Подробнее</BlockButton>
+        </ButtonWrapper>
+      </BlockWrapper>
     </div>
   )
 };

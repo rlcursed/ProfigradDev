@@ -1,15 +1,8 @@
+import ExcursionsComponent from "../components/ExcursionsPage/ExcursionsComponent";
 
 const Excursions = () => {
   return (
-    <div>
-      1
-      1
-      1
-      1
-      1
-      1
-      1
-    </div>
+    <ExcursionsComponent/>
   )
 };
 

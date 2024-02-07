@@ -1,4 +1,6 @@
-.block-body {
+import styled from "styled-components";
+
+export const BlockWrapper = styled.div`
     height: 600px;
     width: 1000px;
     background-color: black;
@@ -7,28 +9,29 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 40px;
-}
-
-.text-wrapper{
+`
+export const TextWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.text-wrapper h2 {
+`
+export const TextH = styled.h2`
     font-family: "Bebas Neue Regular";
     color: white;
     font-size: 70px;
     width: 100%;
-}
-.text-wrapper p {
+`
+export const TextP = styled.p`
     font-family: "Bebas Neue Regular";
     color: gray;
     font-size: 20px;
-    
-}
-
-.excursions-button {
+`
+export const ButtonWrapper = styled.div`
+    display: flex;
+    gap: 20px;
+    position: relative;
+`
+export const BlockButton = styled.button`
     border: none;
     background-color: rgba(0, 125, 215, 0);
     border: 1px #fd5e07 solid;
@@ -41,14 +44,4 @@
     left: 0 ;
     cursor: pointer;
     transition: .4s ease-in-out;
-}
-
-.excursions-button:hover {
-    color:#fd5e07;
-}
-
-.buttons-wrapper{
-    display: flex;
-    gap: 20px;
-    position: relative;
-}
+`

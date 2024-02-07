@@ -6,6 +6,8 @@ import { RewiewsGlobalWrapper ,RewiewsCircleWrapper,RewiewsCircle,TopTextWrapper
 import RewiewsCard from "./RewiewsCard/RewiewsCard";
 import Image from "next/image";
 
+import Link from "next/link";
+
 import Arrow from "../../../../../public/icons/Arrow.png"
 
 const Rewiews = () => {
@@ -20,7 +22,9 @@ const Rewiews = () => {
         <TopTextTitle>Уже были на экскурсии?</TopTextTitle>
         <TopTextSubtitle>Поделитесь впечатлениями</TopTextSubtitle>
         </div>
+        <Link href={"/Rewiews"}>
         <Button title="Поделиться"></Button>
+        </Link>
       </TopTextWrapper>
       <RewiewsMiddleWrapper>
         <Image

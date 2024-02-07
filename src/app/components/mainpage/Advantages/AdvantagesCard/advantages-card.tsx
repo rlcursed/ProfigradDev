@@ -1,4 +1,3 @@
-import "./advantages-card.css"
 import { FC } from "react"
 
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
@@ -8,7 +7,7 @@ import { CardWrapper, CardRectangle, CardText } from "./AdvantagesCardStyle"
 
 export interface CardProps {
   description?:string,
-  image: StaticImport,
+  image?: any,
   title?: string
 }
 

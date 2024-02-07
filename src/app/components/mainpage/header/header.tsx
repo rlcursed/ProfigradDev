@@ -1,5 +1,6 @@
 import './header.css'
 import Navigation from "../Navigation";
+import { useScroll } from 'framer-motion';
 
 const Header = () => {
   const navItems = [
@@ -7,7 +8,7 @@ const Header = () => {
     {label: "О проекте", href: "/About"},
     {label: "Экскурсии", href: "/Excursions"},
     {label: "Для школ", href: "/ForSchool"},
-    {label: "Контакты", href: "/Contacts"},
+    {label: "Контакты", href: "#someid"},
     {label: "Новости", href: "/News"},
     {label: "Отзывы", href: "/Rewiews"},
 ];

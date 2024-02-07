@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Bebas_Neue } from 'next/font/google'
 import './globals.css'
 
+
 import { Providers } from './providers'
 
 import Header from './components/mainpage/header/header'
@@ -29,7 +30,9 @@ export default function RootLayout({
         <StyledComponentsRegistry>
           <body className={bebas.className}>
             <Header/>
+            <main>
               <Providers>{children}</Providers>
+            </main>
             <Footer/>
             </body>
         </StyledComponentsRegistry>

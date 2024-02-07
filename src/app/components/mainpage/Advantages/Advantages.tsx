@@ -6,7 +6,7 @@ import Truck from "../../../../../public/icons/Truck.svg"
 import Calendar from "../../../../../public/icons/Calendar.svg"
 import Worker from "../../../../../public/icons/Worker.svg"
 
-import { Button } from "@chakra-ui/react"
+import Button from "../SmallComponents/Button/Button"
 
 import { OrangeLine, TopTextStyle } from "../SmallComponents/ComponentsList"
 import { AdvRectangle, AdvWrapper, AdvMiddleWrapper,AdvHeader } from "./AdvantagesStyle"
@@ -42,7 +42,7 @@ const Advantages = () => {
               description={"Стоимость абонемента 1700 руб. с человека"}
             />
             <AdvRectangle>
-              <Button fontFamily="Bebas Neue"size="xs">Забронировать</Button>
+              <Button title={'Забронировать'}></Button>
             </AdvRectangle>
         </AdvMiddleWrapper>
     </AdvWrapper>

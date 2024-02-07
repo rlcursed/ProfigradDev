@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-import MainPage from "../components/About/MainPage";
+import MainPage from "../components/AboutPage/MainPage";
 
 export const metadata: Metadata = {
   title: 'О проекте | Профиград',

@@ -37,15 +37,14 @@ export const CardWrapper = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 20px;
     gap: 20px;
     cursor: pointer;
     width:450px;
-    height:355px;
+    height:430px;
+    transition: all 0.2s ease-in;
     
-    &:hover ${Circle}{
-        background-color: #fd5e07;
-    }
-    &:hover ${CircleText} {
-        color: white;
+    &:hover{
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
     }
 `

@@ -1,4 +1,4 @@
-import School from "../components/ForSchool/School";
+import School from "../components/ForSchoolPage/School";
 
 import { Metadata } from "next";
 

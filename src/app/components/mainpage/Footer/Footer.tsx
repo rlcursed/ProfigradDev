@@ -1,6 +1,6 @@
 "use client"
 
-import {PhoneText ,PhoneWrapper, FooterContainer, FooterUl, FooterLi, RightWrapper, IconsWrapper } from "./FooterStyle";
+import { PhoneText ,PhoneWrapper, FooterContainer, FooterUl, FooterLi, RightWrapper, IconsWrapper } from "./FooterStyle";
 
 import Telegram from "../../../../../public/icons/Telegram.svg"
 import Vk from "../../../../../public/icons/vk.svg"
@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <FooterContainer>
+    <FooterContainer id="someid">
         <FooterUl>
           <FooterLi>Главная</FooterLi>
           <FooterLi>О проекте</FooterLi>
